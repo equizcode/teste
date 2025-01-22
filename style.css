@@ -54,6 +54,52 @@ footer p{
 }
 
 nav a:hover{
-    color: rgb(120, 5, 5);
+    color: rgb(111, 11, 11);
 
+}
+
+@media (max-width: 768px) {
+    * {
+        padding: 0px 10px;
+    }
+
+    img {
+        width: 50%;
+        height: auto;
+    }
+
+    ul {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 10px;
+    }
+
+    nav a {
+        padding: 8px;
+    }
+
+    h1 {
+        font-size: 24px;
+    }
+
+    h2 {
+        font-size: 18px;
+    }
+    
+    }
+    footer {
+        display: flex;
+        justify-content: center;
+        
+    }
+
+    footer a {
+        margin: 10px 0;
+    }
+
+    footer img {
+        width: 45px;
+        height: 45px;
+    }
 }
